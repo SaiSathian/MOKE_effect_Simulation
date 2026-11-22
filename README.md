@@ -9,12 +9,14 @@ Kerr effects.
 THEORY: 
 
 1)Theory of the experimental setup that we simulate: 
+
 We shine a laser beam of constant intensity on a thin film 
 made of an anisotropic dielectric material which is 
 placed on a isotropic substrate. We observe MO Kerr 
 effects on the reflected beam. 
  
 2)Theory of how we simulate it: 
+
 We start with taking inputs such as ‘the wavelength of the laser beam’ , ‘refractive 
 indices of the thin film and substrate’ , ‘the angle of incidence’ , ‘thickness of the thin 
 film used’ ,  ‘respective dielectric tensor for given magnetization vector and diagonal 
@@ -26,6 +28,7 @@ Then we apply boundary conditions, we write the Berreman state vector for each p
 wave mode.  
 
 In the incident medium, there are 4 modes: 
+
 • Incident 𝑠-wave and incident 𝑝-wave (traveling downward, known) 
 • Reflected 𝑠-wave and reflected 𝑝-wave (traveling upward, unknown amplitudes rss, rsp, rps, rpp)
 In the substrate, there are 2 modes: 
@@ -36,6 +39,7 @@ we can compute the Jones vector for reflected light’s electric field by matrix
 of Reflection matrix, R with the Jones vector for incident light’s electric field.
 
 3)Theory of the physics behind it: 
+
 When light is transmitted through materials or reflected by materials, it gets influenced 
 by a magnetic field or by magnetization of material, this phenomenon is Magneto
 Optical Effects. MO effect in the reflection geometry is called the magneto-optical Kerr 
@@ -48,7 +52,10 @@ perpendicular to the plane of incidence (c).
 LIMITATIONS OF OUR MODEL: 
 
 1.We assume magnetization of the thin film is uniform constant throughout the layer. 
+
 2.Our model can not describe non-linear MO effects. 
+
 3.Our model is purely electrostatic(static M) hence ignoring spin dynamics. 
+
 4.The Voigt MO parameter is treated as a constant but in reality , it is a complex, 
 wavelength-dependent, temperature-dependent quantity.
